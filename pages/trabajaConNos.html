@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajá en Tienda de Té</title>
+    <link rel="stylesheet" href="../css/trabajaConNos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda de Té</h1>
+        </div>
+        
+        <nav role="navigation">
+          <ul>
+            <li><a href="../index.html">Nuestro Té</a></li>
+            <li><a href="#">Tutoriales</a></li>       
+            <li><a href="#">Nuestro menú</a></li>
+            <li><a href="trabajaConNos.html">Trabajá con Nosotros</a></li>
+            <li><a href="#">Franquicias</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+    </header>                                                
+    <main>
+        <section class="form-section">
+            <div class="container">
+                <h2>SUMATE A NUESTRO EQUIPO</h2>
+                <h1>TRABAJÁ EN TDT</h1>
+                <p>Si querés formar parte de Tienda de Té envianos tu datos y adjuntá tu CV</p>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="puesto">¿Cuál es tu puesto de trabajo?</label>
+                            <input type="text" id="puesto" name="puesto">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="sucursal">¿Cuál es tu sucursal de preferencia?</label>
+                            <select id="sucursal" name="sucursal">
+                                <option value="">Seleccione una sucursal</option>
+                                <option value="sucursal1">Esmeralda 480. San Nicolás</option>
+                                <option value="sucursal2">Borges 1613. Palermo Soho</option>
+                                <option value="sucursal3">Santa Fe 4218. Plaza Italia</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="cv">Adjuntar CV</label>
+                            <div class="file-upload">
+                                <input type="file" id="cv" name="cv">
+                                <span>Choose File</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="../images/Té.jpeg" alt="Tienda de Té">
+            </div>
+            <div class="footer-links">
+                <div class="column">
+                    <h3>CONTENIDOS</h3>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nuestro Té</a></li>                   
+                        <li><a href="#">Nuestro menú</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>NECESITÁS AYUDA</h3>
+                    <ul>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Trabajá en TDTé</a></li>
+                        <li><a href="#">Franquicias</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="column subscribe">
+                    <h3>¡SUSCRIBITE PARA RECIBIR DESCUENTOS Y NOVEDADES EXCLUSIVAS!</h3>
+                    <form class="subscribe-form">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="email" placeholder="Tu email">
+                        <button type="submit">SUSCRIBIRME</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>CONECTATE CON NOSOTROS</p>
+                
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p><i class="fa fa-copyright"></i> 2025 Tienda de Té. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
