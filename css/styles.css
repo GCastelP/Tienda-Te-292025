@@ -8,6 +8,10 @@ body {
     font-size: clamp(0.9rem, 1.5vw, 1.1rem);
 }
 
+ul, li, a {
+    text-decoration: none;
+}
+
 /*__________________Header____________________________*/
 header {
     background-color: #000;
