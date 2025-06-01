@@ -1,8 +1,10 @@
 body {
-  margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #fff;
-  color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem); 
 }
 
 header {
