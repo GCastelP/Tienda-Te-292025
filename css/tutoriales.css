@@ -1,0 +1,214 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #000; /* Fondo negro */
+    padding: 20px 0;
+    border-bottom: 1px solid #333; /* Borde inferior sutil */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo strong {
+    font-size: 28px; /* Mayor tamaño para "TIENDA" */
+    text-transform: uppercase; /* Mayúsculas */
+}
+
+.logo span {
+    font-size: 18px; /* Tamaño normal para "DE CAFE" */
+    text-transform: uppercase; /* Mayúsculas */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Letras blancas */
+    font-size: 14px;
+    text-transform: uppercase; /* Mayúsculas */
+}
+
+nav ul li a:hover {
+    opacity: 0.7; /* Opacidad al pasar el ratón */
+}
+
+.intro-text {
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+    color: #555;
+    line-height: 1.6;
+}
+
+.intro-text strong {
+    font-weight: bold; /* Negritas */
+}
+
+.preparaciones {
+    padding: 30px 0;
+}
+
+.preparaciones h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-preparaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card-preparacion {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-preparacion img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.card-preparacion .info {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-preparacion h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card-preparacion a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5cb85c;
+    font-size: 14px;
+}
+
+.card-preparacion a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.subscribe form {
+    display: flex;
+}
+
+.subscribe input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+    color: #333;
+}
+
+.subscribe button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+
+.subscribe button:hover {
+    background-color: #4cae4c;
+}
+
+.social a {
+    color: #aaa;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.social a:hover {
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+}
