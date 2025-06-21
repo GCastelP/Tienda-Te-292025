@@ -34,30 +34,32 @@ header {
     align-items: center;
 } */
 
-.logo {
-    color: #fff; /* Texto blanco */
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.logo strong {
-    font-size: 28px; /* Mayor tamaño para "TIENDA" */
-    text-transform: uppercase; /* Mayúsculas */
-}
-
-.logo span {
-    font-size: 18px; /* Tamaño normal para "DE CAFE" */
-    text-transform: uppercase; /* Mayúsculas */
-}
-.logo h1 {
+/* .logo h1 {
     color: #fff;
     font-weight: 700;
     font-size: clamp(1.5rem, 3vw, 2.2rem);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     margin: 0;
+} */
+
+.logo-link{
+    display: flex;
+    flex-direction: column;   
 }
+.logo strong {
+    color: #fff; 
+    font-weight: 400;
+    font-size: 28px; 
+    text-transform: uppercase; 
+}
+
+.logo span {
+    color: #fff;
+    font-size: 25px; 
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
 
 
 nav ul {

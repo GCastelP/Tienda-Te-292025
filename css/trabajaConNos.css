@@ -29,13 +29,32 @@ header {
 }
 
 
-.logo h1 {
+/* .logo h1 {
     color: #fff;
     font-weight: 700;
     font-size: clamp(1.5rem, 3vw, 2.2rem);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     margin: 0;
+} */
+
+.logo-link{
+    display: flex;
+    flex-direction: column;   
 }
+.logo strong {
+    color: #fff; 
+    font-weight: 400;
+    font-size: 28px; 
+    text-transform: uppercase; 
+}
+
+.logo span {
+    color: #fff;
+    font-size: 25px; 
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
 
 header nav{
     width: 60%;
