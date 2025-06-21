@@ -163,6 +163,92 @@ nav ul li a:active {
     text-decoration: underline;
 }
 
+/*__________________Footer____________________________*/
+
+
+.footer-bg {
+  background-color: #222;
+  color: white;
+  padding: 3rem 0 2rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.footer-grid.container,
+.copyright.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #88b04b;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #6f933d;
+}
+
+.social-icons a {
+  color: #ddd;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+}
+
+
+/* 
 footer {
     background-color: #333;
     color: #fff;
@@ -248,3 +334,5 @@ footer .container {
     padding-top: 10px;
     border-top: 1px solid #555;
 }
+    
+*/
