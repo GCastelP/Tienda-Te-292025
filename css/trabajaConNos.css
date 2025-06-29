@@ -1,9 +1,14 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #fff; /* Fondo blanco para el cuerpo principal */
     color: #333; /* Color de texto predeterminado */
+    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+}
+
+ul, li, a {
+    text-decoration: none;
 }
 
 .container {
@@ -13,8 +18,9 @@ body {
 }
 
 header {
-    background-color: #000; /* Fondo negro para la barra de navegación */
+    background-color: #000;
     padding: 1.5% 2%;
+    width: 96%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,19 +29,32 @@ header {
 }
 
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo h1 {
+/* .logo h1 {
     color: #fff;
     font-weight: 700;
     font-size: clamp(1.5rem, 3vw, 2.2rem);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     margin: 0;
+} */
+
+.logo-link{
+    display: flex;
+    flex-direction: column;   
 }
+.logo strong {
+    color: #fff; 
+    font-weight: 400;
+    font-size: 28px; 
+    text-transform: uppercase; 
+}
+
+.logo span {
+    color: #fff;
+    font-size: 25px; 
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
 
 header nav{
     width: 60%;
@@ -46,16 +65,33 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-header nav ul li {
+/* header nav ul li {
     margin-left: 20px;
+} */
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5vw 1vw;
+    transition: color 0.3s ease;
 }
 
-header nav ul li a {
-    color: #fff; /* Texto blanco para los enlaces de navegación */
-    text-decoration: none;
-    font-size: 14px;
+nav ul li a:visited {
+    color: #ccc;
+}
+
+nav ul li a:hover {
+    color: #c7a17a;
+}
+
+nav ul li a:active {
+    color: #fff;
 }
 
 main {
